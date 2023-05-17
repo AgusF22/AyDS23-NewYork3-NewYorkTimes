@@ -1,6 +1,5 @@
-package ayds.newyork.songinfo.moredetails.data.external.nytimes.artistinfo
+package ayds.ny3.newyorktimes.external
 
-import ayds.newyork.songinfo.moredetails.domain.entities.ArtistInfo.NYTArtistInfo
 import retrofit2.Response
 
 interface NYTimesArtistInfoService {

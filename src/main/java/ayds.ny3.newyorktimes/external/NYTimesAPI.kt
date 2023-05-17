@@ -1,4 +1,4 @@
-package ayds.newyork.songinfo.moredetails.data.external.nytimes.artistinfo
+package ayds.ny3.newyorktimes.external
 
 import retrofit2.Call
 import retrofit2.http.GET
