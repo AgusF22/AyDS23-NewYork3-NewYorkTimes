@@ -7,3 +7,5 @@ La interfaz `NYTimesArtistInfoService` provee la función `getArtistInfo` que, d
 - `artist`: el nombre del artista,
 - `abstract`: un fragmento de texto que describe al artista,
 - `url`: un enlace al artículo completo de donde se extrajo el fragmento de texto anterior.
+
+Para usar la interfaz anterior mencionada, se provee el inyector `NYTimesArtistInfoServiceInjector` que tiene una propiedad pública `newYorkTimesArtistInfoServiceImpl`.
