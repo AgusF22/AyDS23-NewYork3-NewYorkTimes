@@ -1,6 +1,6 @@
 # Módulo para obtener información de un artista en NYTimes
 
-## Uso
+## Usos
 La interfaz `NYTimesArtistInfoService` provee la función `getArtistInfo` que, dado un artista en formato String, devuelve un objeto `NYTArtistInfo` de haber sido encontrado, o `null` en caso contrario.
 
 `NYTArtistInfo` es una clase representativa de la información obtenida. Contiene tres propiedades:
