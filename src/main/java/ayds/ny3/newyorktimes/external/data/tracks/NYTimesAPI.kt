@@ -1,4 +1,4 @@
-package ayds.ny3.newyorktimes.external
+package ayds.ny3.newyorktimes.external.data.tracks
 
 import retrofit2.Call
 import retrofit2.http.GET

@@ -1,10 +1,8 @@
-package ayds.ny3.newyorktimes.external
+package ayds.ny3.newyorktimes.external.data.tracks
 
+import ayds.ny3.newyorktimes.external.NYTimesArtistInfoService
+import ayds.ny3.newyorktimes.external.data.entities.NYTArtistInfo
 import retrofit2.Response
-
-interface NYTimesArtistInfoService {
-    fun getArtistInfo(artist: String): NYTArtistInfo?
-}
 
 internal class NYTimesArtistInfoServiceImpl(
     private val newYorkTimesAPI: NYTimesAPI,
