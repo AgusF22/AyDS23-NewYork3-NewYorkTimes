@@ -32,7 +32,7 @@ Para usar la interfaz anterior mencionada, se provee el inyector `NYTimesArtistI
 1. Importar las clases `NYTimesArtistInfoService` y `NYTimesArtistInfoServiceInjector`:
 
 ```
-import ayds.NYTService.NYTimesArtistInfoServiceInjector
+import ayds.NYTService.injector.NYTimesArtistInfoServiceInjector
 import ayds.NYTService.NYTimesArtistInfoService
 ```
 2. Acceder al atributo público de la clase inyector que guarda una instancia del servicio:
