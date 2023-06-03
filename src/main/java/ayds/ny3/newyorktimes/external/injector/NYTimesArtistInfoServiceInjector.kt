@@ -1,10 +1,10 @@
 package ayds.ny3.newyorktimes.external.injector
 
-import ayds.ny3.newyorktimes.external.*
-import ayds.ny3.newyorktimes.external.data.tracks.JsonToArtistInfoResolver
-import ayds.ny3.newyorktimes.external.data.tracks.NYTimesAPI
-import ayds.ny3.newyorktimes.external.data.tracks.NYTimesArtistInfoServiceImpl
-import ayds.ny3.newyorktimes.external.data.tracks.NYTimesToArtistInfoResolver
+import ayds.ny3.newyorktimes.external.NYTimesArtistInfoService
+import ayds.ny3.newyorktimes.external.NYTimesArtistInfoServiceImpl
+import ayds.ny3.newyorktimes.external.JsonToArtistInfoResolver
+import ayds.ny3.newyorktimes.external.NYTimesAPI
+import ayds.ny3.newyorktimes.external.NYTimesToArtistInfoResolver
 import retrofit2.Retrofit
 import retrofit2.converter.scalars.ScalarsConverterFactory
 

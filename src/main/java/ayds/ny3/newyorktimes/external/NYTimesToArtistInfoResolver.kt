@@ -1,4 +1,4 @@
-package ayds.ny3.newyorktimes.external.data.tracks
+package ayds.ny3.newyorktimes.external
 
 import ayds.ny3.newyorktimes.external.data.entities.NYTArtistInfo
 import com.google.gson.Gson
